@@ -332,6 +332,7 @@ ol {
 }
 
 .images-app {
+    position: absolute;
     top: 0;
     font-size: 16px;
     line-height: 1.5;
@@ -470,6 +471,15 @@ ol {
     padding: 100px 0;
 }
 
+.div-footer {
+    display: flex;
+    align-items: baseline;
+}
+
+.div-logo-down {
+    margin-right: 120px;
+}
+
 .link-logo {
     display: inline-block;
     margin-bottom: 16px;
@@ -511,6 +521,15 @@ ol {
 
 .text-footer {
     max-width: 264px;
+}
+
+.social-media {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    margin-bottom: 16px;
 }
 
 img {
